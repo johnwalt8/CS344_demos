@@ -2,7 +2,7 @@
 #!/bin/bash
 # This script converts a row file ./tempinputfile into a column file ./tempcolfile,
 # then back into a row file ./temprowfile<PID>
-inputfile="tempinputfile"
+inputFile="tempinputfile"
 tempCol="tempcolfile"
 tempRow="temprowfile"
 
