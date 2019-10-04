@@ -18,7 +18,7 @@ function generate(){
                                                             # statement.  The right side of the &&
                                                             # operator will not be evaluated unless
                                                             # the left side is true.
-    for arg in $1 and $2
+    for arg in $1 $2
     do
         [[ $arg =~ [^0-9]+ ]] && echo "argument '$arg' is not an integer" >&2
     done
