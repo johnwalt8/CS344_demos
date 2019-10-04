@@ -10,9 +10,12 @@ echo 001 >> sorteddata$$
 echo ABC >> sorteddata$$
 echo 789 >> sorteddata$$
 
+echo "The lines sorted numerically are:"
+cat sorteddata$$ | sort -n
+
 # Get the number of lines in the datafile
 numLines=$(wc -l < sorteddata$$)
-echo "Third line of $numLiunes is:"
+echo "Third line from the bottom of $numLines is:"
 
 # Sort the lines; get the last 3;
 #  get the 1st of the 3
